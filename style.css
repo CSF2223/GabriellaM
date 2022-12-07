@@ -1,10 +1,10 @@
 /*
 Color Palette
-background color: #200439
+background color: #678983
 primary: #512C73
-secondary: #361356
+secondary: #355764
 tertiary: #6F4D8F
-accent: #9277AC
+accent: #FFEBAD
 vegasGold: #c5b358
 white: #fff
 black: #000  
@@ -18,9 +18,9 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'open Sans', sans-serif;
+    font-family: 'Solway', sans-serif;
     font-weight: 300;
-    background-color: #200439;
+    background-color: #678983;
     color: #fff;
 }
 
@@ -38,8 +38,7 @@ body {
 .heroImage img {
     border-radius: 6rem;
     box-shadow: 10px 10px #000;
-    width: 100%;
-    height: auto;
+    transform: rotate(360deg);
 }
 
 .heroText {
@@ -50,7 +49,7 @@ body {
 }
 
 .heroName {
-    color: #c5b358;
+    color: #F2D388;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -70,18 +69,18 @@ body {
 .button {
     background-color: #fff;
     padding: 1rem;
-    border:1px solid #9277AC;
+    border:1px solid #FFEBAD;
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color:#200439;
+    color:#678983;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
-    background-color: #361356;
-    color: #c5b358;
+    background-color: #355764;
+    color: #F2D388;
     transform: scale(1.5);
     /* (150% zoom - Note: If the zoom is too large, it will go outside of the viewport)*/
 }
@@ -95,11 +94,11 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #200439;
+    color: #678983;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
-    border:1px solid #9277AC;
+    border:1px solid #FFEBAD;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px #000;
 }
@@ -140,16 +139,16 @@ body {
 
 footer {
     text-align: center;
-    color:#c5b358; 
+    color:#F2D388; 
     margin: 10rem 0;
-    border-top: 1px solid #9277AC;
+    border-top: 1px solid #FFEBAD;
 }
 
 .copyright {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #c5b358;
+    color: #F2D388;
     display: block;
 }
 

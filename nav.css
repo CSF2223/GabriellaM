@@ -10,8 +10,8 @@ white: #fff
 black: #000  
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700&display=swap');
 
 .navbar {
     display: flex;
@@ -21,10 +21,10 @@ black: #000
 }
 
 .logo {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     margin: 0.75rem 2.5rem;
     color: #c5d358;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Corinthia', cursive;
 }
 
 .navbar-links ul {
@@ -47,7 +47,7 @@ black: #000
 }
 
 .navbar-links li:hover {
-    background-color: #361356;
+    background-color: #355764;
 }
 
 .toggle-button {
@@ -84,7 +84,7 @@ black: #000
 
 .bottomNav li a {
     text-decoration: none;
-    color: #c5b358;
+    color: #F2D388;
     display: block;
 }
 
